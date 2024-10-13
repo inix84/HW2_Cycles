@@ -87,6 +87,7 @@ public class Main {
             if (currentYear % 79 == 0) {
                 System.out.println(currentYear);
             }
+
         }
     }
 }
