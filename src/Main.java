@@ -17,9 +17,8 @@ public class Main {
         }
         System.out.print(".");
         System.out.println();
-        while (q > 1) { // на данном шаге q=11
-            q--;
-            System.out.print(q + " ");
+        for (int h = 10; h > 0;h--) {
+            System.out.print(h + " ");
         }
         System.out.print(".");
         System.out.println();
